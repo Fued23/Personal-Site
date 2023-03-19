@@ -1,0 +1,169 @@
+body {
+  background-image: url("photo.jpg");
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  padding-top: 10px;
+}
+
+.h1 {
+  margin-top: 100px;
+}
+.menu {
+  margin-left: 20px;
+}
+.menu a {
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 480px) {
+  .contatti {
+    width: 100%;
+    float: none;
+  }
+}
+.contatti {
+  padding: 9px 25px;
+  background: #0d94a6;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  float: right;
+}
+.contatti:hover {
+  background: #39f;
+}
+
+header {
+  padding: 10px 1%;
+  background-color: #ffffff44;
+  backdrop-filter: blur(1px);
+  border-radius: 23px 23px 23px 23px;
+  margin-top: auto;
+  margin-left: 23px;
+  word-spacing: 30px;
+  margin-bottom: 100px;
+  position: sticky;
+  top: 5px;
+}
+.menu a:hover {
+  color: #39f;
+}
+
+h1 {
+  margin-top: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.studi {
+  text-align: center;
+  margin-top: 75px;
+  background-color: #ffffff44;
+  backdrop-filter: blur(1px);
+  border: 1px solid white;
+  padding: 30px 3%;
+  border-radius: 70px 70px 70px 70px;
+  margin: 0 auto;
+  width: 550px;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+@media (max-width: 550px) {
+  .studi {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
+.esperienze {
+  margin-left: 20px;
+  margin-top: 200px;
+}
+.espin {
+  background-color: #ffffff44;
+  backdrop-filter: blur(1px);
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 30px 30px 30px 30px;
+  margin-right: 150px;
+  float: left;
+  width: 550px;
+}
+@media (max-width: 550px) {
+  .espin {
+    width: 100%;
+    margin: 5px;
+  }
+}
+img {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 300px;
+  margin-right: 150px;
+  float: right;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px 10px 10px 10px;
+}
+@media (max-width: 550px) {
+  img {
+    width: 100%;
+    margin: 5px;
+  }
+}
+.obiettivi {
+  text-align: center;
+
+  line-height: 40px;
+  height: 270px;
+  background-color: #ffffff44;
+  backdrop-filter: blur(1px);
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 50px 50px 50px 50px;
+  width: 450px;
+  margin: 0 auto;
+}
+@media (max-width: 550px) {
+  .obiettivi {
+    width: 100%;
+    margin: 5px;
+  }
+}
+.footer {
+  padding: 10px 0;
+  margin-left: 30px;
+}
+
+.footer p {
+  font-size: 23px;
+  color: #777;
+  margin-bottom: 0;
+  padding-left: 10px;
+}
+.footer .inner2 .fa {
+  font-size: 23px;
+  width: 55px;
+  color: #777;
+  margin-top: 30px;
+}
+
+.footer p a {
+  text-decoration: none;
+  color: #777;
+  transition: 0.3s;
+  padding-left: 10px;
+}
+.footer p a:hover {
+  color: #fff;
+}
+
+.footer .inner3 .ic {
+  font-size: 70px;
+}
