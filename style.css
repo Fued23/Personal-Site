@@ -44,7 +44,7 @@ header {
   backdrop-filter: blur(1px);
   border-radius: 23px 23px 23px 23px;
   margin-top: auto;
-  margin-left: 23px;
+  margin: 0 auto;
   word-spacing: 30px;
   margin-bottom: 100px;
   position: sticky;
